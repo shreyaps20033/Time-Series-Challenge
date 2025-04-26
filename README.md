@@ -1,4 +1,4 @@
-# 🔋 Transformer Oil Temperature Forecasting (24-Hour Horizon)
+# Transformer Oil Temperature Forecasting (24-Hour Horizon)
 
 This project aims to accurately forecast transformer **oil temperature (OT)** for the next 24 hours at **1-hour intervals** using a GRU-based deep learning approach. Forecasting OT is crucial in preventing equipment failures, managing electrical loads, and ensuring energy distribution efficiency.
 
@@ -6,12 +6,12 @@ This project aims to accurately forecast transformer **oil temperature (OT)** fo
 
 ## 📌 Project Highlights
 
-- 📊 **Multivariate Time Series Forecasting** using GRU (Gated Recurrent Units)  
-- ♻️ Predicts next 24 OT values in one shot (multi-output forecasting)  
-- ⚙️ Includes **feature engineering** (lags, rolling stats, time features)  
-- 📉 Evaluates model using **MAE, RMSE, MAPE, SMAPE**  
-- 🔍 Includes **EDA** to analyze load patterns and extreme transformer behavior  
-- 📁 Outputs 24-hour forecasts in CSV and visual plots
+- **Multivariate Time Series Forecasting** using GRU (Gated Recurrent Units)  
+-  Predicts next 24 OT values in one shot (multi-output forecasting)  
+- Includes **feature engineering** (lags, rolling stats, time features)  
+- Evaluates model using **MAE, RMSE, MAPE, SMAPE**  
+- Includes **EDA** to analyze load patterns and extreme transformer behavior  
+- Outputs 24-hour forecasts in CSV and visual plots
 
 ---
 

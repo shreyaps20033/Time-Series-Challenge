@@ -4,7 +4,7 @@ This project aims to accurately forecast transformer **oil temperature (OT)** fo
 
 ---
 
-## 📌 Project Highlights
+##  Project Highlights
 
 - **Multivariate Time Series Forecasting** using GRU (Gated Recurrent Units)  
 -  Predicts next 24 OT values in one shot (multi-output forecasting)  
@@ -15,7 +15,7 @@ This project aims to accurately forecast transformer **oil temperature (OT)** fo
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 - **Architecture**: Stacked GRU with Dropout  
 - **Input**: 24 time steps of multivariate features  
@@ -26,7 +26,7 @@ This project aims to accurately forecast transformer **oil temperature (OT)** fo
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - File: `train.csv`  
 - Features include:
@@ -36,7 +36,7 @@ This project aims to accurately forecast transformer **oil temperature (OT)** fo
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 On validation set:
 
@@ -47,7 +47,7 @@ On validation set:
 
 ---
 
-## 📊 Forecast Output
+##  Forecast Output
 
 - File: `outputs/improved_24_hour_forecast.csv`  
 - Columns: `timestamp`, `predicted_OT`  
@@ -55,7 +55,7 @@ On validation set:
 
 ---
 
-## 📌 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 - **Correlation Heatmap** to explore impact of load types on OT  
 - **Distribution Plot** for understanding OT value ranges  
@@ -63,7 +63,7 @@ On validation set:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Clone the repository  
 2. Install dependencies:  
@@ -77,7 +77,7 @@ On validation set:
 
 ---
 
-## 📁 Outputs
+##  Outputs
 
 - ✅ `improved_24_hour_forecast.csv`  
 - 📈 Forecast plot  
